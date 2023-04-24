@@ -1,0 +1,377 @@
+[
+    {
+        "name": "aigle royal",
+        "species": "Aquila chrysaetos",
+        "weightKg": 5,
+        "sizeCm": 200,
+        "characteristics": {
+            "diurnal": true,
+            "color": "brun foncé",
+            "diet": "carnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "20 a 25 ans",
+            "behavior": [
+                "solitaire",
+                "chasseur",
+                "rapide"
+            ]
+        },
+        "placeOfOrigin": "Eurasie",
+        "lifeExpectancyInCaptivity": "jusqu'a 32 ans",
+        "commonCountries": [
+            "Canada",
+            "Etats-Unis d'Amérique",
+            "Russie"
+        ]
+    },
+    {
+        "name": "flamant rose",
+        "species": "Phoenicopterus roseus",
+        "weightKg": 2,
+        "sizeCm": 120,
+        "characteristics": {
+            "diurnal": true,
+            "color": "rose",
+            "diet": "omnivore",
+            "habitat": "aquatic",
+            "lifeExpectancy": "20 a 30 ans",
+            "behavior": [
+                "social",
+                "gracieux",
+                "protecteur"
+            ]
+        },
+        "placeOfOrigin": "Afrique",
+        "lifeExpectancyInCaptivity": "jusqu'a 40 ans",
+        "commonCountries": [
+            "Espagne",
+            "France",
+            "Italie"
+        ]
+    },
+    {
+        "name": "hibou grand-duc",
+        "species": "Bubo bubo",
+        "weightKg": 2,
+        "sizeCm": 60,
+        "characteristics": {
+            "diurnal": "nocturnal",
+            "color": "marron",
+            "diet": "carnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "20 a 30 ans",
+            "behavior": [
+                "nocturne",
+                "silencieux",
+                "protecteur"
+            ]
+        },
+        "placeOfOrigin": "Eurasie",
+        "lifeExpectancyInCaptivity": "jusqu'a 40 ans",
+        "commonCountries": [
+            "France",
+            "Allemagne",
+            "Russie"
+        ]
+    },
+    {
+        "name": "colibri",
+        "species": "Trochilidae",
+        "weightKg": 0.005,
+        "sizeCm": 6,
+        "characteristics": {
+            "diurnal": true,
+            "color": "divers",
+            "diet": "nectar",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "3 a 5 ans",
+            "behavior": [
+                "petit",
+                "rapide",
+                "vif"
+            ]
+        },
+        "placeOfOrigin": "Amérique",
+        "lifeExpectancyInCaptivity": "jusqu'a 10 ans",
+        "commonCountries": [
+            "Brésil",
+            "Mexique",
+            "Colombie"
+        ]
+    },
+    {
+        "name": "pigeon",
+        "species": "Columbidae",
+        "weightKg": 0.5,
+        "sizeCm": 35,
+        "characteristics": {
+            "diurnal": true,
+            "color": "gris",
+            "diet": "herbivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "3 a 5 ans",
+            "behavior": [
+                "gregaire",
+                "joueur",
+                "protecteur"
+            ]
+        },
+        "placeOfOrigin": "Mondial",
+        "lifeExpectancyInCaptivity": "jusqu'a 15 ans",
+        "commonCountries": [
+            "France",
+            "Etats-Unis d'Amérique",
+            "Japon"
+        ]
+    },
+    {
+        "name": "héron",
+        "species": "Ardea cinerea",
+        "weightKg": 2,
+        "sizeCm": 100,
+        "characteristics": {
+            "diurnal": true,
+            "color": "gris",
+            "diet": "carnivore",
+            "habitat": "aquatic",
+            "lifeExpectancy": "15 a 20 ans",
+            "behavior": [
+                "solitaire",
+                "patient",
+                "chasseur"
+            ]
+        },
+        "placeOfOrigin": "Mondial",
+        "lifeExpectancyInCaptivity": "jusqu'a 25 ans",
+        "commonCountries": [
+            "Etats-Unis d'Amérique",
+            "Chine",
+            "France"
+        ]
+    },
+    {
+        "name": "poule",
+        "species": "Gallus gallus domesticus",
+        "weightKg": 2,
+        "sizeCm": 30,
+        "characteristics": {
+            "diurnal": true,
+            "color": "blanc",
+            "diet": "omnivore",
+            "habitat": "domestic",
+            "lifeExpectancy": "5 a 10 ans",
+            "behavior": [
+                "sociale",
+                "curieuse",
+                "protectrice"
+            ]
+        },
+        "placeOfOrigin": "Asie",
+        "lifeExpectancyInCaptivity": "jusqu'a 15 ans",
+        "commonCountries": [
+            "France",
+            "Etats-Unis d'Amérique",
+            "Japon"
+        ]
+    },
+    {
+        "name": "corbeau",
+        "species": "Corvus corax",
+        "weightKg": 1,
+        "sizeCm": 70,
+        "characteristics": {
+            "diurnal": true,
+            "color": "noir",
+            "diet": "omnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "15 a 20 ans",
+            "behavior": [
+                "intelligent",
+                "curieux",
+                "protecteur"
+            ]
+        },
+        "placeOfOrigin": "Mondial",
+        "lifeExpectancyInCaptivity": "jusqu'a 40 ans",
+        "commonCountries": [
+            "Etats-Unis d'Amérique",
+            "Canada",
+            "France"
+        ]
+    },
+    {
+        "name": "perroquet",
+        "species": "Psittacidae",
+        "weightKg": 1,
+        "sizeCm": 30,
+        "characteristics": {
+            "diurnal": true,
+            "color": "divers",
+            "diet": "omnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "50 a 70 ans",
+            "behavior": [
+                "bavard",
+                "intelligent",
+                "affectueux"
+            ]
+        },
+        "placeOfOrigin": "Mondial",
+        "lifeExpectancyInCaptivity": "jusqu'a 80 ans",
+        "commonCountries": [
+            "Brésil",
+            "Australie",
+            "France"
+        ]
+    },
+    {
+        "name": "canard",
+        "species": "Anatidae",
+        "weightKg": 1.5,
+        "sizeCm": 60,
+        "characteristics": {
+            "diurnal": true,
+            "color": "divers",
+            "diet": "omnivore",
+            "habitat": "aquatic",
+            "lifeExpectancy": "5 a 10 ans",
+            "behavior": [
+                "grégaire",
+                "protecteur",
+                "joueur"
+            ]
+        },
+        "placeOfOrigin": "Mondial",
+        "lifeExpectancyInCaptivity": "jusqu'a 20 ans",
+        "commonCountries": [
+            "France",
+            "Etats-Unis d'Amérique",
+            "Russie"
+        ]
+    },
+    {
+        "name": "cigogne",
+        "species": "Ciconia ciconia",
+        "weightKg": 3,
+        "sizeCm": 110,
+        "characteristics": {
+            "diurnal": true,
+            "color": "blanc et noir",
+            "diet": "carnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "20 a 30 ans",
+            "behavior": [
+                "protecteur",
+                "migrateur",
+                "gracieux"
+            ]
+        },
+        "placeOfOrigin": "Europe",
+        "lifeExpectancyInCaptivity": "jusqu'a 40 ans",
+        "commonCountries": [
+            "France",
+            "Allemagne",
+            "Russie"
+        ]
+    },
+    {
+        "name": "moineau",
+        "species": "Passer domesticus",
+        "weightKg": 0.03,
+        "sizeCm": 15,
+        "characteristics": {
+            "diurnal": true,
+            "color": "marron",
+            "diet": "omnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "3 a 5 ans",
+            "behavior": [
+                "sociale",
+                "bavarde",
+                "protectrice"
+            ]
+        },
+        "placeOfOrigin": "Europe",
+        "lifeExpectancyInCaptivity": "jusqu'a 15 ans",
+        "commonCountries": [
+            "France",
+            "Etats-Unis d'Amérique",
+            "Japon"
+        ]
+    },
+    {
+        "name": "autruche",
+        "species": "Struthio camelus",
+        "weightKg": 150,
+        "sizeCm": 210,
+        "characteristics": {
+            "diurnal": true,
+            "color": "noir et blanc",
+            "diet": "omnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "30 a 40 ans",
+            "behavior": [
+                "gracieux",
+                "rapide",
+                "protecteur"
+            ]
+        },
+        "placeOfOrigin": "Afrique",
+        "lifeExpectancyInCaptivity": "jusqu'a 60 ans",
+        "commonCountries": [
+            "Afrique du Sud",
+            "Etats-Unis d'Amérique",
+            "France"
+        ]
+    },
+    {
+        "name": "tourterelle",
+        "species": "Streptopelia turtur",
+        "weightKg": 0.2,
+        "sizeCm": 28,
+        "characteristics": {
+            "diurnal": true,
+            "color": "marron",
+            "diet": "omnivore",
+            "habitat": "terrestrial",
+            "lifeExpectancy": "3 a 5 ans",
+            "behavior": [
+                "sociale",
+                "affectueuse",
+                "protectrice"
+            ]
+        },
+        "placeOfOrigin": "Europe",
+        "lifeExpectancyInCaptivity": "jusqu'a 15 ans",
+        "commonCountries": [
+            "France",
+            "Etats-Unis d'Amérique",
+            "Japon"
+        ]
+    },
+    {
+        "name": "poulet",
+        "species": "Gallus gallus domesticus",
+        "weightKg": 2,
+        "sizeCm": 30,
+        "characteristics": {
+            "diurnal": true,
+            "color": "blanc",
+            "diet": "omnivore",
+            "habitat": "domestic",
+            "lifeExpectancy": "5 a 10 ans",
+            "behavior": [
+                "sociale",
+                "curieuse",
+                "protectrice"
+            ]
+        },
+        "placeOfOrigin": "Asie",
+        "lifeExpectancyInCaptivity": "jusqu'a 15 ans",
+        "commonCountries": [
+            "France",
+            "Etats-Unis d'Amérique",
+            "Japon"
+        ]
+    }
+]
