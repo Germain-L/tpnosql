@@ -1006,3 +1006,27 @@ db.mammiferes.find({"placeOfOrigin": {"$regex": "Afrique", "$options": "i"}})
 ```
 
 ## Exo 3
+#### Modifier une valeur dans le premier document basé sur un filtre retournant plusieurs documents
+```js
+db.mammiferes.updateOne({sizeCm: {$gt: 30}}, {$set: {weightKg: 10}})
+```
+
+#### D’incrémenter une valeurs précise dans tous vos document d’une valeur X 
+```js
+db.mammiferes.updateMany({}, {$inc: {weightKg: 2}})
+```
+
+#### D’ajouter une valeur à un tableau d’objet embedded
+```js
+db.mammiferes.updateOne({name: "chien"}, {$push: {"characteristics.behavior": {$each: ["actif"]}}})
+```
+
+#### De changer le nom d’un field sur tous vos documents
+```js
+db.mammiferes.updateMany({}, {$rename: {"lifeExpectancyInCaptivity": "lifeExpectancyInZoo"}})
+```
+
+#### D’effacer toutes les valeurs d’une collection 
+```js
+db.oiseaux.deleteMany({})
+```
