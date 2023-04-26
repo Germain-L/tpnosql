@@ -6,9 +6,9 @@ GQVYgeD9G0gLnPNE
 prof
 StC5mzRRYWYn25Bt
 
-# Exo 1 :
+## Exo 1 :
  
-## Collection mammiferes :
+### Collection mammiferes :
 
 ```json
 [
@@ -590,7 +590,7 @@ StC5mzRRYWYn25Bt
 ]
 ```
 
-## Collection oiseaux
+### Collection oiseaux
 
 
 ```json
@@ -969,6 +969,40 @@ StC5mzRRYWYn25Bt
             "Etats-Unis d'Amérique",
             "Japon"
         ]
-    }da
+    }
 ]
 ```
+
+## Exo 2
+
+#### Un document préci par son ID
+```js
+db.mammiferes.find({"_id": ObjectId("6448c7d05aedf4d6eb7f060c")})
+```
+
+#### Une liste d’élément en ordre selon deux champs
+```js
+db.mammiferes.find().sort({"weightKg": 1, "sizeCm": 1})
+```
+
+#### 3 éléments en affichant que 1 champs pour chacun (Donc pas le ID)
+```js
+db.mammiferes.find({}, {"name": 1, "_id": 0}).limit(3)
+```
+
+#### tous les éléments ayant une valeur plus grande que X
+```js
+db.mammiferes.find({"weightKg": {"$gt": 2}})
+```
+
+#### plusieurs éléments en utilisant un and
+```js
+db.mammiferes.find({"$and": [{"weightKg": {"$gt": 200}}, {"sizeCm": {"$gt": 500}}]})
+```
+
+#### 3 éléments par une regex de votre choix
+```js
+db.mammiferes.find({"placeOfOrigin": {"$regex": "Afrique", "$options": "i"}})
+```
+
+## Exo 3

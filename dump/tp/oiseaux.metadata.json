@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"070a87e784ee4717ae69c87778aeab4c","collectionName":"oiseaux","type":"collection"}
